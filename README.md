@@ -268,12 +268,6 @@ Inspector AI seamlessly integrates with popular AI platforms:
 </tr>
 </table>
 
-### 📹 Video Tutorial
-
-🎥 **Watch the complete setup walkthrough**: [Inspector AI Installation Guide](https://www.youtube.com/watch?v=pSoftCagCm8)
-
-
-
 ---
 
 ## 🛠️ Security Tools Arsenal
@@ -607,11 +601,6 @@ python -m pytest tests/
   <a href="https://www.linkedin.com/in/savaid-khan-50142837a">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  &nbsp;&nbsp;
-  <a href="https://discord.gg/BWnmrrSHbA">
-    <img src="https://img.shields.io/badge/Discord-Join-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
-  </a>
-</p>
 
 ---
 
@@ -628,9 +617,6 @@ python -m pytest tests/
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ### 🔒 **Disclaimer**
 
@@ -1214,7 +1200,7 @@ MIT License - see LICENSE file for details.
 
 ### **🚀 Ready to Transform Your AI Agents?**
 
-**[⭐ Star this repository](https://github.com/Savaid-KhanOfficial/Inspector_Savaid)** • **[🍴 Fork and contribute](https://github.com/Savaid-KhanOfficial/Inspector_Savaid/fork)** • **[📖 Read the docs](docs/)**
+**[⭐ Star this repository](https://github.com/Savaid-KhanOfficial/Inspector_Savaid)** • **[🍴 Fork and contribute](https://github.com/Savaid-KhanOfficial/Inspector_Savaid/fork)**
 
 ---
 
