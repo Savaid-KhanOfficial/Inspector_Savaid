@@ -1,0 +1,83 @@
+# Inspector AI Security Operations Platform v1.0
+#
+# DEPLOYMENT COMMANDS:
+# python3 -m venv inspector_env
+# source inspector_env/bin/activate
+# python3 -m pip install -r requirements.txt
+# python3 inspector_server.py
+
+# ============================================================================
+# CORE SECURITY PLATFORM DEPENDENCIES
+# ============================================================================
+flask>=2.3.0,<4.0.0             # Web service framework for security operations
+requests>=2.31.0,<3.0.0         # HTTP communication library for API calls
+psutil>=5.9.0,<6.0.0            # System resource monitoring and process management
+fastmcp>=0.2.0,<1.0.0           # MCP protocol implementation for AI integration
+
+# ============================================================================
+# WEB AUTOMATION AND ANALYSIS FRAMEWORK
+# ============================================================================
+beautifulsoup4>=4.12.0,<5.0.0   # HTML document parsing and analysis
+selenium>=4.15.0,<5.0.0         # Browser automation for dynamic web testing
+webdriver-manager>=4.0.0,<5.0.0 # Automated browser driver provisioning
+
+# ============================================================================
+# HIGH-PERFORMANCE NETWORK OPERATIONS
+# ============================================================================
+aiohttp>=3.8.0,<4.0.0           # Asynchronous HTTP client for concurrent operations
+
+# ============================================================================
+# NETWORK TRAFFIC INSPECTION TOOLKIT
+# ============================================================================
+mitmproxy>=9.0.0,<11.0.0        # HTTP/HTTPS traffic interception and analysis
+
+# ============================================================================
+# SECURITY RESEARCH AND ANALYSIS TOOLS
+# ============================================================================
+pwntools>=4.10.0,<5.0.0         # Security research and exploit development framework
+angr>=9.2.0,<10.0.0             # Binary analysis platform with symbolic execution
+
+# ============================================================================
+# INTEGRATED SECURITY TOOL ECOSYSTEM (150+ Tools - External Installation)
+# ============================================================================
+# 
+# The Inspector AI platform interfaces with 150+ specialized security tools
+# requiring separate installation from official repositories:
+# 
+# 🔍 Network Intelligence & Reconnaissance (25+ tools):
+# - nmap, masscan, rustscan, autorecon, amass, subfinder, fierce
+# - dnsenum, theharvester, responder, netexec, enum4linux-ng
+# 
+# 🌐 Web Application Security Testing (40+ tools):
+# - gobuster, feroxbuster, ffuf, dirb, dirsearch, nuclei, nikto
+# - sqlmap, wpscan, arjun, paramspider, x8, katana, httpx
+# - dalfox, jaeles, hakrawler, gau, waybackurls, wafw00f
+# 
+# 🔐 Authentication & Credential Analysis (12+ tools):
+# - hydra, john, hashcat, medusa, patator, netexec
+# - evil-winrm, hash-identifier, ophcrack
+# 
+# 🔬 Binary Analysis & Code Examination (25+ tools):
+# - ghidra, radare2, gdb, binwalk, ropgadget, checksec, strings
+# - volatility3, foremost, steghide, exiftool, angr, pwntools
+# 
+# ☁️ Cloud Infrastructure Security (20+ tools):
+# - prowler, scout-suite, trivy, kube-hunter, kube-bench
+# - docker-bench-security, checkov, terrascan, falco
+# 
+# 🏆 Digital Forensics & CTF Operations (20+ tools):
+# - volatility3, autopsy, sleuthkit, stegsolve, zsteg, outguess
+# - photorec, testdisk, scalpel, bulk-extractor
+# 
+# 🕵️ Open Source Intelligence & Research (20+ tools):
+# - sherlock, social-analyzer, recon-ng, maltego, spiderfoot
+# - shodan-cli, censys-cli, have-i-been-pwned
+# 
+# Platform Deployment Requirements:
+# 1. Kali Linux 2024.1+ offers optimal tool ecosystem integration
+# 2. Ubuntu/Debian systems require individual tool installation
+# 3. Specialized tools may need source compilation
+# 4. Cloud platform access requires proper credential configuration
+# 5. Web automation demands Chrome/Chromium browser infrastructure
+# 
+# Comprehensive deployment documentation available in README.md
